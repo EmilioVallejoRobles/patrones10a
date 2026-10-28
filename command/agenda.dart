@@ -18,7 +18,7 @@ void eliminar(int posicion){
 }
 
 // Ya no se quiere borrar la tarea, se debe recuperar
-  void dehacer() {
+  void deshacer() {
     final tarea = eliminada;
     final posicion = posicionAnterior;
 
