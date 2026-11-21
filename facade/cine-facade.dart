@@ -8,10 +8,14 @@ class CineFacade {
   final Reproductor _reproductor;
 
   // Constructor
-  CineFacade(this._proyector, this._audio, this._reproductor);
+  CineFacade(
+    this._proyector,
+    this._audio,
+    this._reproductor,
+  );
 
   void verPelicula(String pelicula, int volumen) {
-    _proyector.ancender();
+    _proyector.encender();
     _audio.encender();
     _audio.ajustarVolumen(volumen);
     _reproductor.reproducir(pelicula);

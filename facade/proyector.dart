@@ -1,5 +1,5 @@
 class Proyector {
-  void ancender() => print('Proyector encendido');
+  void encender() => print('Proyector encendido');
 
   void apagar() => print('Proyector apagado');
 }
